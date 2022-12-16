@@ -26,14 +26,24 @@ The resulting tables for the paid vine reviews reults in **22 total paid reviews
 ![unpaid_reviews](https://github.com/vanessaneang/Amazon_Vine_Analysis/blob/main/Resources/unpaid_reviews.png)
 
 
-Using bulleted lists and images of DataFrames as support, address the following questions:
+![summary_table_code](https://github.com/vanessaneang/Amazon_Vine_Analysis/blob/main/Resources/summary_table_code.png)
 
-How many Vine reviews and non-Vine reviews were there?
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+By using PostGreSQL to generate a table that answers the following questions:
+
+**1.) How many Vine reviews and non-Vine reviews were there?**
+There are 22 Vine reviews and 26,987 non-Vine reviews.
+
+**2.) How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?** 
+The amount of 5 star paid reviews are 13, while the number of unpaid reviews is 14,475.
+
+**3.) What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
+Both paid and unpaid reviews has about a 50% percentage of 5 star reviews, paid reviews has a 59% of 5 star reviews and unpaid reviews has 54% of 5 star reviews. It looks like there is a slight bias with the paid reviews by about 5%. 
 
 ![summary_table](https://github.com/vanessaneang/Amazon_Vine_Analysis/blob/main/Resources/summary_table.png)
+
 ## Summary 
+
+There is a slight positivity bias for reviews in the Vine program, by looking at the summary table, there is about 5% more 5 star reviews for the paid reviews over the unpaid reviews. Since for the specific dataset chosen there is not enough data points for paid reviews since there is only a total of 22 views it would be better to chose a dataset that has more paid reviews to see if there is truly a positivity bias. In order to further see if there is a bias it would be useful to use the dataset with more paid reviews with a similar comparison to find how many 5 star reviews there are.  
 
 In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
 
